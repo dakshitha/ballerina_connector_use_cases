@@ -1,3 +1,4 @@
+#Your ballerina.conf file should contain the following keys with the actual values :
 #Salesforce
 SF_EP_URL="https://ap17.salesforce.com"
 

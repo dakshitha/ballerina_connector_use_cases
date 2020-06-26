@@ -10,6 +10,8 @@ Generate a trial number for your account to send text messages.
 Follow this document to create the OpportunityUpdate Topic - 
 https://docs.google.com/document/d/1TqYyRghbYpH-RJaVB_RWQVE_FMaoau-BtxHfESO0f7E/edit#
 
+Add the contents in ballerina.conf.copy file to your ballerina.conf file. 
+
 Run the project with the following command - 
 
 ballerina run use_case_3

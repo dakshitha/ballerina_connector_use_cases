@@ -1,10 +1,13 @@
 import ballerina/http;
-import thishani/sfdc;
+import ballerinax/sfdc;
 import ballerina/io;
 import ballerina/log;
 
-listener sfdc:EventListener opportunityUpdateListener = new(opportunityListenerConfig);
+listener sfdc:Listener opportunityUpdateListener = new(opportunityListenerConfig);
 
+@sfdc:ServiceConfig {
+    topic:"/topic/OpportunityUpdate"
+}
 service workflowTwo on opportunityUpdateListener {
     resource function onEvent(json op) {  
         //convert json string to json

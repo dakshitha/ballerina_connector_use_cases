@@ -1,6 +1,5 @@
 import ballerina/config;
-//import ballerinax/sfdc;
-import thishani/sfdc;
+import ballerinax/sfdc;
 import ballerinax/twilio;
 
 
@@ -24,7 +23,6 @@ twilio:TwilioConfiguration twilioConfig = {
 };
 
 sfdc:ListenerConfiguration opportunityListenerConfig = {
-    apiUrl: config:getAsString("SF_EP_URL"),
-    token: config:getAsString("ACCESS_TOKEN"),
-    topic: config:getAsString("OPPORTUNITY_UPDATE_TOPIC")
+    username: config:getAsString("SF_USERNAME"),
+    password: config:getAsString("SF_PASSWORD")
 };

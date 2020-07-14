@@ -1,6 +1,5 @@
 import ballerina/io;
-//import ballerinax/sfdc;
-import thishani/sfdc;
+import ballerinax/sfdc;
 import ballerinax/twilio;
 import ballerina/test;
 import ballerina/log;

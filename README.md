@@ -30,7 +30,7 @@ https://docs.google.com/document/d/1TqYyRghbYpH-RJaVB_RWQVE_FMaoau-BtxHfESO0f7E/
  
  - Create a Ballerina module
  
-  `ballerina add use_case_3 // new module`
+  `ballerina add use_case_3`
    Or instead of creating a module, clone this repository in to the connector_use_cases project folder you just created. 
  
 - Add the contents in ballerina.conf.copy file to your ballerina.conf file. Make sure to edit the conf file to add the relevant tokens and URLs obtained from Salesforce and Twilio. ballerina.conf.copy is merely an edited copy of my ballerina.conf file to be used for reference. 

@@ -28,9 +28,9 @@ After some time, when the opportunity is updated in Salesforce after processing 
 
 - [Ballerina Distribution](https://ballerina.io/learn/getting-started/). This sample was tested with the Swan Lake Preview 2 version of Ballerina. 
 
-`ballerina update`
-`ballerina dist list`
-`ballerina dist pull slp2`
+```ballerina update
+ballerina dist list
+ballerina dist pull slp2```
  
 - A Text Editor or an IDE 
 > **Tip**: For a better development experience, install one of the following Ballerina IDE plugins:  

@@ -1,4 +1,4 @@
-# ballerina_connector_use_cases
+# Automating a Donation Submission Process Using Salesforce and Twilio
 
 This repo contains the Ballerina code for the implementation of automating a donation submission process using Salesforce and Twilio. 
 
@@ -121,7 +121,7 @@ X_AUTHY_API_SECRET="YOUR TWILIO API SECRET GOES HERE"
 
 Go to root of the project and run following cmd.
 
-`ballerina run use_case_3`
+`ballerina run sf_twilio`
 
 - To activate the first workflow (i.e., create an account and opportunity in Salesforce with the given information, which is hard-coded in main.bal for the time being), run the following command in a different terminal:
 `curl "http://localhost:9090/donationMgt/processDonation"`

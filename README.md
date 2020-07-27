@@ -58,6 +58,7 @@ Obtain the following parameters:
 * Access Token
 * Refresh Token
 * Refresh URL
+* Security Token
 
 For more information on obtaining OAuth2 credentials, visit 
 [Salesforce help documentation](https://help.salesforce.com/articleView?id=remoteaccess_authenticate_overview.htm) 
@@ -66,7 +67,7 @@ or follow this
 
 Note down your Salesforce username, password and the security token that will be needed for initializing the listener. 
 
-For more information on the secret token, please visit [Reset Your Security Token](https://help.salesforce.com/articleView?id=user_security_token.htm&type=5).
+If you don't have the security token, go to Salesforce, at the top navigation bar go to Your name > My Settings > Personal >  Reset My Security Token. Click on "Reset Security Token". Clicking the button invalidates your existing token. After resetting your token, Salesforce will email the security token to you. 
 
 #### Create push topic in Salesforce developer console
 

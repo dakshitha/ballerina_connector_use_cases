@@ -132,7 +132,7 @@ Go to root of the project and run following cmd.
 
 - Check Salesforce to see the newly created Account and Opportunity under that account. The verified phone number will also receive a text message stating that the donation will be processed. 
 
-- To activate the seconde workflow, go to Salesforce and click on the created (or any other) Opportunity and change the stage to Closed-Won. Now the verified phone number will receive a text message, which thanks and informs the user that the donation has been processed and accepted. 
+- To activate the second workflow, go to Salesforce and click on the created (or any other) Opportunity and change the stage to Closed-Won. Now the verified phone number will receive a text message, which thanks and informs the user that the donation has been processed and accepted. 
 
 
 

@@ -99,9 +99,6 @@ insert pushTopic;
 Once you obtained all configurations, update the ballerina.conf file with the relevant tokens etc. 
 
 ```
-#Salesforce
-
-#The SF_EP_URL might be different for you. Check and update accordingly
 SF_EP_URL="https://ap17.salesforce.com"
 
 REDIRECT_URL="https://login.salesforce.com/"
@@ -114,10 +111,19 @@ REFRESH_URL="https://login.salesforce.com/services/oauth2/token"
 
 OPPORTUNITY_UPDATE_TOPIC="/topic/OpportunityUpdate"
 
+SF_USERNAME="YOUR SF_USERNAME GOES HERE"
+SF_PASSWORD="YOUR SF_PASSWORD + SECURITY_TOKEN GOES HERE"
+
 #Twilio
 ACCOUNT_SID="YOUR TWILIO ACCOUNT SID GOES HERE"
 AUTH_TOKEN="YOUR TWILIO TOKEN GOES HERE"
 X_AUTHY_API_SECRET="YOUR TWILIO API SECRET GOES HERE"
+SENDER_MOBILE_NO = "YOUR TWILIO TRIAL NUMBER GOES HERE"
+
+#Donor information - Add details of your choice. 
+DONOR_NAME="Chandler Bing"
+DONOR_BILLING_CITY="NYC"
+DONOR_MOBILE_NO="ENTER A NUMBER THAT CAN RECEIVE TEST MESSAGES"
 
 ```
 
